@@ -1,0 +1,91 @@
+    page-list {
+        ion-header {
+            height: r(370px)!important;
+            border-bottom: r(20px) solid #ededed;
+            /* 分割;普通标和债券的设置 */
+            .topframe {
+                padding: 0;
+                height: r(95px);
+                border-top: r(1px) solid #ededed;
+                .index {
+                    border-bottom: r(2px) solid #ededed;
+                    .topbuttom {
+                        border: 0;
+                        font-size: r(28px);
+                        max-width: r(999px);
+                    }
+                }
+            }
+            /* 点击颜色字体颜色变化 */
+            .segment-ios .segment-button {
+                color: #909090;
+                background-color: rgb(255, 255, 255);
+            }
+            .segment-ios .segment-button.segment-activated {
+                color: rgb(255, 111, 0);
+                background-color: rgb(255, 255, 255);
+                border-bottom: 0.6rem solid #ff6f00;
+            }
+            /* nav图标的设置 */
+            .nav {
+                background-color: rgb(255, 255, 255);
+                height: r(143px)!important;
+                line-height: 0.7rem !important;
+                ion-grid {
+                    padding: 0;
+                    padding-left: r(20px);
+                    padding-right: r(20px);
+                    padding-top: r(25px);
+                    .navtitle {
+                        padding: 0;
+                        text-align: center;
+                        .icon img {
+                            height: r(56px);
+                            color: #ff6f00;
+                        }
+                        p {
+                            font-size: r(24px);
+                            color: #ff6f00;
+                        }
+                        .navtitle-left {
+                            // text-align: left;
+                        }
+                        .navtitle-right {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        ion-content {
+            div.fixed-content,
+            div.scroll-content {
+                margin-top: 5.8rem !important;
+            }
+            ion-refresher {
+                position: absolute;
+                top: 5.4rem!important;
+            }
+            .refresher-pulling-icon,
+            .refresher-refreshing-icon {
+                font-size: 0.6rem !important;
+                margin-top: r(50px);
+            }
+            .logo {
+                font-size: r(30px);
+            }
+        }
+        .foot {
+            height: r(200px);
+            width: 100%;
+            bottom: 0px;
+            color: #909090;
+            background-color: #ededed;
+            padding: r(15px) r(30px) r(15px) r(30px);
+            p {
+                text-align: center;
+                padding-top: r(80px);
+                font-size: r(24px);
+            }
+        }
+    }

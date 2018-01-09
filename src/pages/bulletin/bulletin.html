@@ -1,0 +1,21 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>公告详情</ion-title>
+        <p class='more' tappable (click)='on_more()'>更多公告</p>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class='bulletin'>
+
+        <div class='bulletin_title'> {{bulletin_title}}</div>
+
+        <div class='bulletin_time'>{{bulletin_time}}</div>
+
+        <div [innerHTML]='bulletin_all' class="bulletins_list"> </div>
+
+    </div>
+</ion-content>

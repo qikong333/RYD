@@ -1,0 +1,62 @@
+page-recharge {
+    .recharge{
+        background:#ffffff;
+        ul{
+            width:100%;
+            padding:0 5% 0 5%;
+            li{
+                width:100%;
+                height:r(96px);
+                line-height:r(90px);
+                font-size:r(26px);
+                color:#323232;
+                span{
+                    display:block;
+                    font-size:r(26px);
+                    color:#323232;
+                    float:left;
+                }
+                p{
+                    float:right;
+                    font-size:r(26px);
+                    color:#323232;
+                }
+                input{
+                    border:0;
+                    display:block;
+                    float:left;
+                    width:70%;
+                    padding-left:5%;
+                }
+            }
+            li:nth-child(1){
+                margin-top:r(50px);
+            }
+        }
+
+         button{
+            width:90%;
+            margin:0 auto;
+            display:block;
+            height:r(88px);
+            line-height:r(88px);
+            text-align:center;
+            font-size:r(34px);
+            color:#ffffff;
+            border-radius:r(8px);
+            margin-top:r(30px);
+            background:#ff6f00;
+        }
+        .pay_limit{
+            width:90%;
+            margin:5% auto 0;
+            text-align:right;
+            font-size:r(20px);
+            color:#5a66ff;
+        }
+
+        .clear{
+            clear:both;
+        }
+    }
+}
